@@ -1,0 +1,108 @@
+body{
+	margin: 0;
+	/*width: 100%;*/
+}
+
+.parent{
+	display: flex;
+	flex-direction: column;
+	background-image: url('https://images.squarespace-cdn.com/content/v1/52a74d9ae4b0253945d2aee9/1391287286405-92Z4A4R3T2ZSZAKNVS9V/ke17ZwdGBToddI8pDm48kNCH0IFo-E28D0rm_d_wnF4UqsxRUqqbr1mOJYKfIPR7LoDQ9mXPOjoJoqy81S2I8N_N4V1vUb5AoIIIbLZhVYxCRW4BPu10St3TBAUQYVKczdH3qUBwO6oWXP_OkYMa5KbLFw5Om5Yp_Nt25Y6nc5ZZuUUY1FOqARMqv9i1pcqr/image-asset.jpeg?format=1500w');
+	background-size: 100%;
+	overflow: hidden;
+}
+
+.header{
+	height: 60.567px;
+	width: 100%;
+	padding: 20px;
+	margin-top: 0;
+}
+
+.section{
+	display: flex;
+	flex-direction: row-reverse;
+	margin-right: 40px;
+	padding: 10px 10px;
+}
+
+
+
+.links{
+	font-family: 'Proxima Nova Rg', sans-serif;
+	text-decoration: none;
+	text-transform: none;
+	color: white;
+	margin: 8px;
+	padding: 12px 17px;
+	font-size: 14px;
+	font-weight: 700;
+}
+
+#bordered{
+	border: solid white 2px;
+	border-radius: 20px;
+}
+
+.bigquote p{
+	font-family: "Proxima Nova";
+	font-size: 14px;
+	color: white;
+	/*padding: 0;*/
+}
+
+.bigquote h1{
+	font-family: sans-serif;
+	color: white;
+	font-size: 60px;
+	font-kerning: 5px;
+
+}
+
+.bigquote{
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+	line-height: 20px;
+	justify-content: center;
+}
+
+.button button {
+	background-color: rgba(54,179,168,.8);
+	border: none;
+	border-radius: 10px;
+	width: 120px;
+	color: white;
+	font-family: sans-serif;
+
+}
+
+.stuff-with-quotes{
+	width: 990px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	text-align: center;
+	/*color: white;*/
+	margin: 10px 200px;
+	background-color: white; 
+}
+
+.box{
+	display: flex;
+	flex-direction: row;
+}
+
+.box .text{
+	display: flex;
+	flex-direction: column;
+}
+
+
+.about{
+	font-family: "Proxima Nova Lt", sans-serif;
+	letter-spacing: 4px;
+	font-weight: 600;
+	opacity: 0.5;
+	font-size: 18px;
+	color: rgba(26,26,26,.7);
+}

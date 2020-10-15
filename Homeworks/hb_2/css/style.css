@@ -1,0 +1,407 @@
+@import url('https://fonts.googleapis.com/css2?family=Sansita+Swashed:wght@300;500&display=swap');
+
+body{
+    margin: 0;
+    background-color: antiquewhite;
+    font-family: 'Sansita Swashed', cursive;
+    color: white;
+}
+.parent{
+    overflow: hidden;
+}
+
+.zone-with-bg{
+    background-image: url("../img/sdu-bg.jpg");
+    background-size: cover;
+    height: 600px;
+}
+
+.bg-inner{
+    height: inherit;
+    background: linear-gradient(to top, rgba(255, 255, 255, 0.05), rgba(0, 0, 0, 0.8));
+}
+
+.header{
+    display: flex;
+    flex-direction: column;
+    width: 990px;
+    margin: auto;
+}
+
+.header-inner{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+}
+
+.header-inner .elem{
+    color: white;
+    margin: 4px;
+}
+
+.elem a{
+    text-decoration: none;
+    color: white;
+}
+
+.elem{
+    flex-grow: 1;
+}
+
+.button{
+    border: none;
+    border-radius: 10px;
+    color: white;
+    padding: 10px 20px;
+    font-family: 'Sansita Swashed', cursive;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.button-blue{
+    background-color: #151948;
+}
+
+.button-blue:hover{
+    background-color: #1c2266;
+}
+
+.first{
+    display: inline-flex;
+    align-items: flex-start;
+    flex-grow: 5;
+}
+
+.bg-inner h1{
+    font-size: 72px;
+    margin: 30px 0;
+}
+
+.header .label{
+    font-size: 24px;
+    display: inline-block;
+    width: inherit;
+}
+.arrow{
+    margin-left: 500px;
+    display: inline-flex;
+    width: 100px;
+}
+.arrow img{
+    margin-top: 20px;
+    display: inline-block;
+    position: absolute;
+    z-index: 1;
+}
+
+.button-label{
+    padding: 20px 30px;
+    font-size: 16px;
+    border-radius: 5px;
+    margin: 20px 5px;
+}
+
+.button-red {
+    background-color: #9e2629;
+}
+
+.button-red:hover{
+    background-color: #b3282afa;
+}
+
+.button-border{
+    border: solid white 2px;
+}
+
+.find-your-spec{
+    position: absolute;
+    padding: 15px 70px;
+    margin-top: 500px;
+    background-color: #151948;
+    width: 63%;
+    font-size: 32px;
+    text-align: center;
+    align-self: center;
+}
+
+.search{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.search input{
+    padding: 20px;
+    border: solid white 2px;
+    border-radius: 5px;
+    flex-grow: 2;
+    font-size: 14px;
+    font-family: "Roboto", sans-serif;
+    background-color: #151948;
+    color: white;
+}
+
+.section-mid{
+    background-color: #9e2629;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.section-mid-inner, .section-bottom{
+    margin-top: 150px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.section-mid-inner{
+    height: 420px;
+}
+
+.section-bottom{
+    height: 470px;
+    /* background-color: white */
+}
+
+.section-mid-inner h1{
+    font-size: 48px;
+    margin: 10px;
+}
+
+.description{
+    align-self: center;
+    width: 500px;
+    margin: 30px;
+}
+
+.boxes{
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+}
+
+.box{
+    padding: 15px;
+    margin: 10px;
+    background-color: #151948;
+    display: inline-block;
+    width: 18em;
+    font-weight: 300;
+    border-radius:15px;
+}
+
+.box p{
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.box a{
+    color: white;
+    font-weight: 500;
+}
+
+.section-bottom{
+    position: relative;
+    color: #9e2629;
+    text-align: left;
+    width: 990px;
+    margin: 200px auto;
+}
+
+.upcoming-courses {
+    align-self: center;
+    width: inherit;
+    display: flex;
+    justify-content: space-between;
+}
+
+.section-bottom h1{
+    margin: 20px 10px;
+}
+
+.section-bottom-parent{
+    /* background-color: white; */
+    display: flex;
+    flex-direction: column;
+    /* height: 700px; */
+}
+
+.uc-box{
+    margin: 0 10px;
+    height: 16em;
+    width: 24em;
+    background-image: url('../img/happy-people.jpg');
+    background-size: cover;
+    font-size: 14px;
+    letter-spacing: 0.5px;
+    background-color: grey;
+}
+
+.uc-box .gradient{
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.8),  rgba(255, 255, 255, 0.05));
+    height: inherit;
+}
+
+
+.uc-box-main{
+    font-size: 20px;
+}
+
+strong.letter-blue {
+    color: blue;
+    font-size: 14px;
+}
+
+strong.letter-yellow {
+    color: rgb(146, 11, 45);
+    font-size: 14px;
+}
+
+.uc-box-info{
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    font-family: sans-serif;
+    color: black;
+    letter-spacing: 0;
+}
+
+.uc-box-bottom{
+    background-color: white;
+    padding: 10px;
+}
+
+.uc-box-bottom h3{
+    margin: 0;
+    padding: 15px 0;
+}
+
+.uc-box .text p{
+    color: rgba(0, 0, 0, 0.712);
+}
+
+.uc-box-info .elem{
+    display: flex;
+}
+
+.uc-box-info .elem img{
+    margin-right: 5px;
+}
+
+.section-2-top{
+    display: flex;
+    flex-direction: column;
+}
+
+.banner-parent{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgb(197, 64, 55);
+}
+
+.banner-w-buttons{
+    padding: 50px 0;
+    width: 990px;
+    text-align: center;
+    height: 400px;
+}
+
+.banner-w-buttons .statistics{
+    background-color: #151948;
+    width: inherit;
+    display: flex;
+}
+
+.banner-w-buttons img{
+    height: inherit;
+}
+
+.statistics .text{
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+    padding: 20px;
+}
+
+.statistics{
+    align-items: center;
+    height: 553px;
+}
+
+.statistics p{
+    color: rgba(255, 255, 255, 0.678);
+}
+
+.zone-with-video {
+    color: #9e2629;
+    margin-top: 500px;
+    display: flex;
+    height: 390px;
+    align-self: flex-end;
+    font-size: 14px;
+}
+
+.zone-with-video .text{
+    width: 400px;
+    margin: 30px 0;
+}
+
+.-text{
+    display: inline-block;
+    padding: 0 20px;
+    width: 150px;
+}
+
+.-text p{
+    font-size: 20px;
+    margin: 0;
+}
+
+.-box{
+    display: inline-flex;
+    align-items: center;
+}
+
+.zone-with-video img.video{
+    height: inherit;
+}
+
+.zone-with-video h1{
+    font-size: 36px;
+    margin: 0;
+}
+
+@media screen and (max-width: 950px){
+    .arrow img{
+        visibility: hidden;
+    }
+
+    img.video {
+        height: initial;
+        width: 50%
+    }
+
+    .zone-with-video{
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width: 1113px){
+    .header{
+        width: 90%;
+    }
+    .section-bottom{
+        width: 90%;
+    }
+    .banner-w-buttons{
+        width: 90%;
+    }
+
+    img.video {
+        height: initial;
+        width: 50%
+    }
+}

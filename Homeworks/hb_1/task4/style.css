@@ -1,0 +1,58 @@
+.parent{
+ display: grid;
+ margin: auto;
+ grid-template-rows: auto auto auto auto;
+ grid-template-columns: auto auto auto;
+ /*grid-gap: 10px;*/
+ width: 300px;
+ height: 200px;
+ justify-items: center;
+ /*justify-content: space-between;*/
+ grid-template-areas:
+ "top top top"
+ "wayleft midup wayright"
+ "wayleft middown wayright"
+ "bottom bottom bottom"; 
+}
+
+.item{
+	display: inline-block;
+	border: solid grey 2px;
+	text-align: center;
+}
+
+.top{
+	grid-area: top;
+	width: 400px;
+	height: 50px;
+}
+
+.wayleft{
+	grid-area: wayleft;
+	height: 104px;
+	width: 146px;
+}
+
+.wayright{
+	grid-area: wayright;
+	height: 104px;
+	width: 146px;
+}
+
+.midup{
+	grid-area: midup;
+	height: 50px;
+	width: 100px;
+}
+
+.middown{
+	grid-area: middown;
+	width: 100px;
+	height: 50px;
+}
+
+.bottom{
+	grid-area: bottom;
+	height: 50px;
+	width: 400px;
+}

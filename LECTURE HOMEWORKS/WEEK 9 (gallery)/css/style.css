@@ -1,0 +1,70 @@
+/* @font-face{
+    font-family: "Avante";
+    src: url('../fonts/Avante.ttf')
+} */
+
+:root{
+    --main-text-color: tomato;
+    --bg-color: antiquewhite;
+}
+
+@font-face{
+    font-family: "Delphian";
+    src: url('../fonts/Delphian.ttf');
+}
+
+body{
+    font-family: 'Delphian', arial;
+    background-color: var(--bg-color);
+}
+
+p#initials {
+    color: var(--main-text-color);
+    text-align: center;
+    font-size: 64px;
+    cursor: default;
+}
+.gallery {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.box-image{
+    display: inline-block;
+    height: 400px;
+    width: auto;
+    padding: 10px;
+    box-sizing: content-box;
+    transition: all 0.45s ease 0s;
+}
+
+.box-image._active{
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.box-image:hover {
+    box-shadow: inset 0 0 0 10px var(--main-text-color);
+}
+
+.box-image._active span {
+    margin-left: 15px;
+    color: white;
+}
+
+.box-image._active:hover {
+    box-shadow: none;
+}
+
+img {
+    height: inherit;
+}
